@@ -11,7 +11,7 @@ token_open_weather = "ae369fb3ab507b7a8501b0bf95b9583c"  # saytni tokeni
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 
-
+# bowlaw
 @dp.message_handler(commands=["start"])
 async def start_command(message: types.Message):
     await message.reply("Assalomu alekum\n"
