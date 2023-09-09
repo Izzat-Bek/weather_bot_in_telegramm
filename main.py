@@ -17,7 +17,7 @@ async def start_command(message: types.Message):
     await message.reply("Assalomu alekum\n"
                         "Siz menga shaxarni yozing \nmen esa sizga Ob-Havo malumotlarini beraman")
 
-
+# help comandasini bosganda
 @dp.message_handler(commands=["help"])
 async def help_command(message: types.Message):
     await message.answer("Men Ob-Havo malumotlarini beruvchi botman")
